@@ -1,0 +1,110 @@
+header, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+form {
+    max-width: 500px;
+    min-width: 300;
+    width: 60vw;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  input, textarea, select {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 3em;
+ }
+ .inline{
+    width: unset;
+    margin-right: 0.5em;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+ }
+ fieldset:last-of-type {
+    border-bottom: none;
+  }
+ input, textarea {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #fcfcfc;
+    color:rgb(0, 0, 0);
+  }
+.container1 {
+    padding: 0;
+    text-align: center;
+    background-color: rgb(90, 90, 227);
+    background-size: 1cm;
+    color: rgb(225, 225, 225);
+    font-size: 0,6cm;  
+    margin: 0;
+  }
+  .intro2 {
+    font-family: 'Acme', sans-serif;
+    font-family: 'DM Serif Display', serif;
+  }
+  .info {
+    background-color: rgb(252, 67, 67);
+    padding: 2cm; 
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    color: rgb(0, 0, 0);
+    text-align: left;
+  }
+  a{
+    color: #000;
+  }
+  .done{
+    color: white;
+    background-color:rgb(90, 90, 227);
+  }
+  .whole {
+    text-align: center;
+  }
+  .message {
+    background-color: rgb(252, 67, 67);
+    text-align: center;
+    height: 5cm;
+    width: 10cm;
+    padding: 4cm;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+  }
+  .destination {
+   text-align: center;
+   color: #fcfcfc;
+   font-family: 'Staatliches', cursive;
+   font-size: 50px;
+   padding: 0;
+   text-align: center;
+   background-color: rgb(90, 90, 227);
+   background-size: 1cm;
+   color: rgb(225, 225, 225);
+   font-size: 0,6cm;  
+   margin: 0;
+  }
+  .text-center {
+    text-align: center;
+    color: #fcfcfc;
+    font-family: 'Staatliches', cursive;
+   font-size: 50px;
+  }

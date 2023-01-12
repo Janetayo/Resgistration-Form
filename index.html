@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegistrationForm</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container1">
+        <header class="header">
+            <h1 id="title" class="text-center">REGISTRATION FORM</h1>
+            <style> @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap'); </style>
+            <p class="intro2">JanTabPria School is known for its quality education. And we hereby bring you the opportunity of studing in the school for FREE.
+                The schorlaship will be given to those who meets the criteria listed below. Here is a form for you to enroll in the school of your dream, and win the schorlaship.</p>
+        </header>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display:ital@1&display=swap'); </style>
+       </div>
+       <div>
+        <form method="get" action="destination.html" class="info">
+            <fieldset>
+                <label for="first-name">First name: <input id="first-name" type="text" required name="firstone" placeholder="First-name"></label>
+                <label for="last-name">Last name: <input id="last-name" type="text" required name="lastone" placeholder="Last-name"></label>
+                <label for="email">E-mail: <input id="email" type="email" required name="gmail" placeholder="abcd@gmail.com"></label>
+                <label for="password">Telephone: <input type="tel" id="phone" name="phone"  required placeholder="55 (51)91234-5678"></label>   
+            </fieldset>
+            <fieldset>
+                <label for="primary-school"><input type="radio" name="account-type" id="primary-school" class="inline">Primary School</label>
+                <label for="secondary-school"><input type="radio" name="account-type" id="secondary-school" class="inline">Secondary School</label>
+            </fieldset>
+            <fieldset>
+                <label for="age">Age: <input type="number" min="6" max="18" id="age" name="years"></label> 
+                <label for="way of information"> How did you got informed about the schorlaship:
+                  <select id="way of information"  name="inform">
+                    <option value="">Select One</option>
+                    <option value="1">Youtube</option>
+                    <option value="2">Instagram</option>
+                    <option value="3">Twitter</option>
+                    <option value="4">Other</option>
+                  </select>
+                </label>
+                <label class="design" for="bio">Why do you deserve the schorlaship?<textarea id="bio" rows="4" cols="30" placeholder="I deserve this schorlaship because, ..." name="bio"></textarea></label>
+            </fieldset>
+                  <a href="destination.html"><input type="submit" value="Submit" class="done"></a>
+            </form>
+        </form>
+    </div>
+</body>
+</html>
